@@ -25,10 +25,10 @@ const HeroComponent = () => {
             </svg>
           </Link>
            : ""}
-          <p className="hero-attribution">Created by Engineering Society @ UCLA</p>
+          <p className="hero-attribution">Created by Engineering Student Association @ UCLA</p>
         </div>
         <div className="hero-logo">
-          <img src="/esuc-logo.png" alt="ESUC Logo" className="hero-logo-image" />
+          <img src="/esa-logo.png" alt="ESA Logo" className="hero-logo-image" />
         </div>
       </div>
     </section>

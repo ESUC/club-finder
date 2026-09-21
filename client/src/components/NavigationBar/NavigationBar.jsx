@@ -44,8 +44,8 @@ const NavigationBar = () => {
         <Link to="/about" className="navbar-logo">
           <img
             className="navbar-logo-image"
-            src="/esuc-logo.png"
-            alt="ESUC Logo"
+            src="/esa-logo.png"
+            alt="ESA Logo"
             onError={(e) => {
               e.target.style.display = 'none';
             }}

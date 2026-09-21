@@ -3,12 +3,12 @@
   "name": "ClubFinder - UCLA Engineering Clubs",
   "icons": [
     {
-      "src": "esuc-logo.png",
+      "src": "esa-logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "esuc-logo.png",
+      "src": "esa-logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="footer-column">
           <h3 className="footer-heading">Resources</h3>
           <ul className="footer-links">
-            <li><a href="https://esuc.ucla.edu" target="_blank" rel="noopener noreferrer" className="footer-link">ESUC Website</a></li>
+            <li><a href="https://esuc.ucla.edu" target="_blank" rel="noopener noreferrer" className="footer-link">ESA Website</a></li>
             <li><a href="https://samueli.ucla.edu/" target="_blank" rel="noopener noreferrer" className="footer-link">UCLA Henry Samueli School of Engineering</a></li>
             <li><a href="https://www.seasoasa.ucla.edu/studentleaderguide-2025-2026/" target="_blank" rel="noopener noreferrer" className="footer-link">Student Leaders Guide</a></li>
           </ul>
@@ -30,16 +30,16 @@ const Footer = () => {
         <div className="footer-column">
           <h3 className="footer-heading">Connect With Us</h3>
           <ul className="footer-links">
-            <li><a href="https://www.instagram.com/esucla?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="footer-link">Instagram</a></li>
+            <li><a href="https://www.instagram.com/uclaengstudentassociation/" target="_blank" rel="noopener noreferrer" className="footer-link">Instagram</a></li>
             <li><a href="https://discord.gg/9T3z9Bsr" target="_blank" rel="noopener noreferrer" className="footer-link">Discord</a></li>
-            <li><a href="https://www.linkedin.com/company/esucla/" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a></li>
+            <li><a href="https://linkedin.com/company/uclaengstudentassociation" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a></li>
           </ul>
         </div>
       </div>
       <div className="footer-divider"></div>
       <div className="footer-bottom">
         <div className="footer-copyright">
-          ©2026 ESUC. All rights reserved.
+          ©2026 ESA. All rights reserved.
         </div>
       </div>
     </footer>

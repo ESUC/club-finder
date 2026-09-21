@@ -47,7 +47,7 @@ export const Login = () => {
       <NavigationBar />
       <div className="login-content-area">
         <div className="login-container">
-          <h3 className="account-title">Welcome to ESUC UCLA</h3>
+          <h3 className="account-title">Welcome to ESA UCLA</h3>
           <h4 className="account-subtitle">Don't have an account? <Link to="/auth/register" className="account-link">Sign up</Link></h4>
           <form className="account-form" onSubmit={handleLogin}>
             <div className="account-input-wrapper">

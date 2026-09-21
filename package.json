@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "baseline-browser-mapping": "^2.10.0",
+    "baseline-browser-mapping": "^2.11.25",
     "concurrently": "^9.1.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
@@ -38,5 +38,8 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
   }
 }
