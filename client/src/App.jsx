@@ -14,7 +14,7 @@ import EditProfile from './pages/edit-profile';
 export const App = () => {
   return (
     <div className="App">
-      <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <Router basename="/club-finder" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/auth/login" element={<Login />} />

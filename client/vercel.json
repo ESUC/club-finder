@@ -1,5 +1,9 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/club-finder/assets/:path", "destination": "/assets/:path" },
+    { "source": "/club-finder/favicon.ico", "destination": "/favicon.ico" },
+    { "source": "/club-finder", "destination": "/index.html" },
+    { "source": "/club-finder/", "destination": "/index.html" },
+    { "source": "/club-finder/:path*", "destination": "/index.html" }
   ]
 }
