@@ -1,25 +1,26 @@
+import { publicAsset } from '../../publicAsset';
 import './BoardComponent.css';
 
 const BoardComponent = () => {
   const executive = [
-    { name: 'Lian Elsa Linton', role: 'External Vice President', image: '/board/Lian_Elsa_Linton_EVP.png' },
-    { name: 'Justin Xu', role: 'President', image: '/board/Justin_Xu_President.png' },
-    { name: 'Aidan O\'Leary', role: 'Internal Vice President', image: '/board/Aidan_O_Leary_IVP.png' },
-    { name: 'Megan Lu', role: 'Treasurer', image: '/board/Megan_Lu_Treasurer.png' },
+    { name: 'Lian Elsa Linton', role: 'External Vice President', image: publicAsset('board/Lian_Elsa_Linton_EVP.png') },
+    { name: 'Justin Xu', role: 'President', image: publicAsset('board/Justin_Xu_President.png') },
+    { name: 'Aidan O\'Leary', role: 'Internal Vice President', image: publicAsset('board/Aidan_O_Leary_IVP.png') },
+    { name: 'Megan Lu', role: 'Treasurer', image: publicAsset('board/Megan_Lu_Treasurer.png') },
   ];
 
   const officers = [
-    { name: 'Grace Li', role: 'Secretary', image: '/board/Grace_Li_Secratary.png' },
-    { name: 'Anastasia Yang', role: 'Co-Webmaster', image: '/board/Anastasia_Yang_Co-Webmaster.png' },
-    { name: 'Carter Ballow', role: 'Co-Webmaster', image: '/board/Carter_Ballow_Co-Webmaster.png' },
-    { name: "Darren Schuttinger", role: 'Alumni Relations Chair', image: '/board/Darren_ Schuttinger_Alumni_Relations_Chair.png' },
-    { name: 'Conner Lam', role: 'Corporate Chair', image: '/board/Conner_Lam_Corporate_Chair.png' },
-    { name: 'Alina Wang', role: 'Publicity Chair', image: '/board/Alina_Wang_Publicity.png' },
-    { name: "Al Ponce", role: 'Membership Chair', image: '/board/Al_Ponce_Membership_Chair.png' },
-    { name: 'Joanne Yu', role: 'Social Chair', image: '/board/Joanne_Yu_Social_Chair.png' },
-    { name: 'Sarah AlSabah', role: 'Wellness Chair', image: '/board/Sarah_AlSabah_Wellness_Chair.png' },
-    { name: "Natalie Ngo", role: 'Facilities Manager', image: '/board/Natalie_Ngo_Facilities_Manager.png' },
-    { name: 'Evelyn Han', role: 'Historian & Transfer Representative', image: '/board/Evelyn_Han_Historian.png' }
+    { name: 'Grace Li', role: 'Secretary', image: publicAsset('board/Grace_Li_Secratary.png') },
+    { name: 'Anastasia Yang', role: 'Co-Webmaster', image: publicAsset('board/Anastasia_Yang_Co-Webmaster.png') },
+    { name: 'Carter Ballow', role: 'Co-Webmaster', image: publicAsset('board/Carter_Ballow_Co-Webmaster.png') },
+    { name: "Darren Schuttinger", role: 'Alumni Relations Chair', image: publicAsset('board/Darren_ Schuttinger_Alumni_Relations_Chair.png') },
+    { name: 'Conner Lam', role: 'Corporate Chair', image: publicAsset('board/Conner_Lam_Corporate_Chair.png') },
+    { name: 'Alina Wang', role: 'Publicity Chair', image: publicAsset('board/Alina_Wang_Publicity.png') },
+    { name: "Al Ponce", role: 'Membership Chair', image: publicAsset('board/Al_Ponce_Membership_Chair.png') },
+    { name: 'Joanne Yu', role: 'Social Chair', image: publicAsset('board/Joanne_Yu_Social_Chair.png') },
+    { name: 'Sarah AlSabah', role: 'Wellness Chair', image: publicAsset('board/Sarah_AlSabah_Wellness_Chair.png') },
+    { name: "Natalie Ngo", role: 'Facilities Manager', image: publicAsset('board/Natalie_Ngo_Facilities_Manager.png') },
+    { name: 'Evelyn Han', role: 'Historian & Transfer Representative', image: publicAsset('board/Evelyn_Han_Historian.png') }
   ];
 
   return (

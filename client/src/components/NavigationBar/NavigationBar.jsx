@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { AppBar, Toolbar, Button, Box } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
+import { publicAsset } from '../../publicAsset';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
@@ -44,7 +45,7 @@ const NavigationBar = () => {
         <Link to="/about" className="navbar-logo">
           <img
             className="navbar-logo-image"
-            src="/esa-logo.png"
+            src={publicAsset('esa-logo.png')}
             alt="ESA Logo"
             onError={(e) => {
               e.target.style.display = 'none';

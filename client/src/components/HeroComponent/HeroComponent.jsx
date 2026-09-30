@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { publicAsset } from '../../publicAsset';
 import './HeroComponent.css';
 
 const userId = localStorage.getItem('token') || null;
@@ -7,7 +8,7 @@ const HeroComponent = () => {
   return (
     <section className="hero-section">
       <div className="hero-graphic">
-        <img src="/lines.svg" alt="" className="hero-waves" />
+        <img src={publicAsset('lines.svg')} alt="" className="hero-waves" />
       </div>
       <div className="hero-wrapper">
         <div className="hero-content">
@@ -28,7 +29,7 @@ const HeroComponent = () => {
           <p className="hero-attribution">Created by Engineering Student Association @ UCLA</p>
         </div>
         <div className="hero-logo">
-          <img src="/esa-logo.png" alt="ESA Logo" className="hero-logo-image" />
+          <img src={publicAsset('esa-logo.png')} alt="ESA Logo" className="hero-logo-image" />
         </div>
       </div>
     </section>
