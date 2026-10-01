@@ -12,7 +12,7 @@ const AboutDescription = () => {
           </p>
         </div>
         <div className="about-description-image">
-          <img src={publicAsset('exec.png')} alt="ESA Executive Board at UCLA Samueli School of Engineering" className="about-description-image-content" />
+          <img src={publicAsset('board-pic.png')} alt="ESA Board at 2026 Retreat" className="about-description-image-content" />
         </div>
       </div>
     </section>
