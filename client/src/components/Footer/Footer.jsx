@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className="footer-links">
             <li><a href="https://www.instagram.com/esa.at.ucla/" target="_blank" rel="noopener noreferrer" className="footer-link">Instagram</a></li>
             <li><a href="https://discord.gg/9T3z9Bsr" target="_blank" rel="noopener noreferrer" className="footer-link">Discord</a></li>
-            <li><a href="https://linkedin.com/company/uclaengstudentassociation" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a></li>
+            <li><a href="https://linkedin.com/company/esa-at-ucla" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a></li>
           </ul>
         </div>
       </div>
